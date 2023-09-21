@@ -9,7 +9,6 @@
 // let return = "hello"
 // let do = "hello"
 
-
 // String Methods
 
 //toLowerCase
@@ -35,24 +34,19 @@
 // let pass = "password"
 // console.log(pass.toUpperCase().charAt(0));
 
-
 //lastIndexOf
-let secondName = "Daniella"
+let secondName = "Daniella";
 // console.log(secondName.lastIndexOf("p"))
 
 //charCodeAt
 
-
 // console.log(secondName.charCodeAt("i"))
-
-
 
 // //slice
 
 // let recordName = "Freedom Park"
 
 // // console.log(recordName.slice(8,12));
-
 
 // // Assignment correction
 
@@ -103,7 +97,6 @@ let secondName = "Daniella"
 
 // console.log(start);
 
-
 // //Math Method / Number Methods
 
 // let number = 99
@@ -112,16 +105,29 @@ let secondName = "Daniella"
 // console.log(numberResult);
 
 //Math Method
-const maths = Math.sqrt(4)
+const maths = Math.sqrt(4);
 console.log(maths);
 
-let results = Math.cos(45)
+let results = Math.cos(45);
 console.log(results);
 
-let anodaNumber = Math.pow(4,3)
+let anodaNumber = Math.pow(4, 3);
 console.log(anodaNumber);
 
-let newNumber = Math.floor(Math.random()*100)
-let ceilNumber = Math.ceil(Math.random()*100)
-let roundNumber = Math.round(Math.random()*100)
-console.log(newNumber,ceilNumber);
+let newNumber = Math.floor(Math.random() * 100);
+let ceilNumber = Math.ceil(Math.random() * 100);
+let roundNumber = Math.round(Math.random() * 100);
+console.log(newNumber, ceilNumber);
+
+//Array Methods
+
+let name = ["Man", 23, true, [2, false]];
+let arr = Array("Nile", 3, true, ["Gold", null]);
+
+// console.log(name);
+// console.log(arr);
+
+// console.log(name[3][0]);
+// console.log(name[3][2][1]);
+
+console.log(name[3][1]);
